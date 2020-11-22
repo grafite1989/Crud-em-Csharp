@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace CRUD_com_CSharp
 {
@@ -86,12 +87,11 @@ namespace CRUD_com_CSharp
             }
             else
             {
-                string sql = "UPDATE CLIENTE SET NOME='" + txtNome.Text + "',
-               ENDERECO = '" + txtEndereco.Text + "', " +
-               "CEP='" + mskCEP.Text + "', BAIRRO='" + txtBairro.Text + "',
-               CIDADE = '" + txtCidade.Text + "', " +
-               "UF='" + txtUf.Text + "', TELEFONE='" + mskTelefone.Text + "' WHERE ID=" + txtId.Text";
-        
+                string sql = "UPDATE CLIENTE SET NOME='" + txtNome.Text + "',ENDERECO = '" + txtEndereco.Text + "', " +
+       "CEP='" + mskCEP.Text + "', BAIRRO='" + txtBairro.Text + "',CIDADE = '" + txtCidade.Text + "', " +
+       "UF='" + txtUf.Text + "', TELEFONE='" + mskTelefone.Text + "' WHERE ID = '" + txtId.Text + "'";
+
+
         SqlConnection con = new SqlConnection(connectionString);
                 SqlCommand cmd = new SqlCommand(sql, con);
                 cmd.CommandType = CommandType.Text;
