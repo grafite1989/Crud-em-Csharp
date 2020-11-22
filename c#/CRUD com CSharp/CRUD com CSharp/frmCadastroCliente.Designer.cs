@@ -260,6 +260,7 @@
             this.tsbBuscaPorId.Name = "tsbBuscaPorId";
             this.tsbBuscaPorId.Size = new System.Drawing.Size(79, 22);
             this.tsbBuscaPorId.Text = "Buscar por Id:";
+            this.tsbBuscaPorId.Click += new System.EventHandler(this.tsbBuscaPorId_Click);
             // 
             // tstId
             // 
