@@ -233,6 +233,7 @@
             this.tsbSalvar.Size = new System.Drawing.Size(23, 22);
             this.tsbSalvar.Text = "toolStripButton1";
             this.tsbSalvar.ToolTipText = "Salvar";
+            this.tsbSalvar.Click += new System.EventHandler(this.tsbSalvar_Click);
             // 
             // tsbCancelar
             // 
