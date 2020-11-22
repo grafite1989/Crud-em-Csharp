@@ -134,5 +134,30 @@ namespace CRUD_com_CSharp
             txtUf.Text = "";
             mskTelefone.Text = "";
         }
+
+        private void tsbCancelar_Click(object sender, EventArgs e)
+        {
+            tsbNovo.Enabled = true;
+            tsbSalvar.Enabled = false;
+            tsbCancelar.Enabled = false;
+            tsbExcluir.Enabled = false;
+            tstId.Enabled = true;
+            tsbBuscar.Enabled = true;
+            txtNome.Enabled = false;
+            txtEndereco.Enabled = false;
+            mskCEP.Enabled = false;
+            txtBairro.Enabled = false;
+            txtCidade.Enabled = false;
+            txtUf.Enabled = false;
+            mskTelefone.Enabled = false;
+            txtId.Text = "";
+            txtNome.Text = "";
+            txtEndereco.Text = "";
+            mskCEP.Text = "";
+            txtBairro.Text = "";
+            txtCidade.Text = "";
+            txtUf.Text = "";
+            mskTelefone.Text = "";
+        }
     }
 }
