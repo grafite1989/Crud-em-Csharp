@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadastroCliente));
             this.txtId = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
@@ -44,6 +45,15 @@
             this.label7 = new System.Windows.Forms.Label();
             this.mskTelefone = new System.Windows.Forms.MaskedTextBox();
             this.label8 = new System.Windows.Forms.Label();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.tsbNovo = new System.Windows.Forms.ToolStripButton();
+            this.tsbCancelar = new System.Windows.Forms.ToolStripButton();
+            this.tsbExcluir = new System.Windows.Forms.ToolStripButton();
+            this.tsbSalvar = new System.Windows.Forms.ToolStripButton();
+            this.tsbBuscaPorId = new System.Windows.Forms.ToolStripLabel();
+            this.tstId = new System.Windows.Forms.ToolStripTextBox();
+            this.tsbBuscar = new System.Windows.Forms.ToolStripButton();
+            this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtId
@@ -187,11 +197,86 @@
             this.label8.TabIndex = 16;
             this.label8.Text = "Telefone";
             // 
+            // toolStrip1
+            // 
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsbNovo,
+            this.tsbSalvar,
+            this.tsbCancelar,
+            this.tsbExcluir,
+            this.tsbBuscaPorId,
+            this.tstId,
+            this.tsbBuscar});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(502, 25);
+            this.toolStrip1.TabIndex = 17;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // tsbNovo
+            // 
+            this.tsbNovo.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbNovo.Image = ((System.Drawing.Image)(resources.GetObject("tsbNovo.Image")));
+            this.tsbNovo.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbNovo.Name = "tsbNovo";
+            this.tsbNovo.Size = new System.Drawing.Size(23, 22);
+            this.tsbNovo.Text = "Salvar";
+            this.tsbNovo.ToolTipText = "Novo";
+            // 
+            // tsbCancelar
+            // 
+            this.tsbCancelar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbCancelar.Image = ((System.Drawing.Image)(resources.GetObject("tsbCancelar.Image")));
+            this.tsbCancelar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbCancelar.Name = "tsbCancelar";
+            this.tsbCancelar.Size = new System.Drawing.Size(23, 22);
+            this.tsbCancelar.Text = "Cancelar";
+            // 
+            // tsbExcluir
+            // 
+            this.tsbExcluir.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbExcluir.Image = ((System.Drawing.Image)(resources.GetObject("tsbExcluir.Image")));
+            this.tsbExcluir.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbExcluir.Name = "tsbExcluir";
+            this.tsbExcluir.Size = new System.Drawing.Size(23, 22);
+            this.tsbExcluir.Text = "Excluir";
+            // 
+            // tsbSalvar
+            // 
+            this.tsbSalvar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbSalvar.Image = ((System.Drawing.Image)(resources.GetObject("tsbSalvar.Image")));
+            this.tsbSalvar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbSalvar.Name = "tsbSalvar";
+            this.tsbSalvar.Size = new System.Drawing.Size(23, 22);
+            this.tsbSalvar.Text = "toolStripButton1";
+            this.tsbSalvar.ToolTipText = "Salvar";
+            // 
+            // tsbBuscaPorId
+            // 
+            this.tsbBuscaPorId.Name = "tsbBuscaPorId";
+            this.tsbBuscaPorId.Size = new System.Drawing.Size(79, 22);
+            this.tsbBuscaPorId.Text = "Buscar por Id:";
+            // 
+            // tstId
+            // 
+            this.tstId.Name = "tstId";
+            this.tstId.Size = new System.Drawing.Size(100, 25);
+            // 
+            // tsbBuscar
+            // 
+            this.tsbBuscar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbBuscar.Image = ((System.Drawing.Image)(resources.GetObject("tsbBuscar.Image")));
+            this.tsbBuscar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbBuscar.Name = "tsbBuscar";
+            this.tsbBuscar.Size = new System.Drawing.Size(23, 22);
+            this.tsbBuscar.Text = "Buscar";
+            // 
             // frmCadastroCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(502, 263);
+            this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.mskTelefone);
             this.Controls.Add(this.label7);
@@ -211,6 +296,8 @@
             this.Name = "frmCadastroCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de cliente";
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -234,6 +321,14 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.MaskedTextBox mskTelefone;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton tsbNovo;
+        private System.Windows.Forms.ToolStripButton tsbSalvar;
+        private System.Windows.Forms.ToolStripButton tsbCancelar;
+        private System.Windows.Forms.ToolStripButton tsbExcluir;
+        private System.Windows.Forms.ToolStripLabel tsbBuscaPorId;
+        private System.Windows.Forms.ToolStripTextBox tstId;
+        private System.Windows.Forms.ToolStripButton tsbBuscar;
     }
 }
 
