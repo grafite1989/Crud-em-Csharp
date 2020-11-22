@@ -35,5 +35,24 @@ namespace CRUD_com_CSharp
             txtUf.Enabled = false;
             mskTelefone.Enabled = false;
         }
+
+        private void tsbNovo_Click(object sender, EventArgs e)
+        {
+            tsbNovo.Enabled = false;
+            tsbSalvar.Enabled = true;
+            tsbCancelar.Enabled = true;
+            tsbExcluir.Enabled = false;
+            tstId.Enabled = false;
+            tsbBuscar.Enabled = false;
+            txtNome.Enabled = true;
+            txtEndereco.Enabled = true;
+            mskCEP.Enabled = true;
+            txtBairro.Enabled = true;
+            txtCidade.Enabled = true;
+            txtUf.Enabled = true;
+            mskTelefone.Enabled = true;
+            txtNome.Focus();
+            novo = true;
+        }
     }
 }

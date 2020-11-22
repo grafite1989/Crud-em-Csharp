@@ -47,9 +47,9 @@
             this.label8 = new System.Windows.Forms.Label();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.tsbNovo = new System.Windows.Forms.ToolStripButton();
+            this.tsbSalvar = new System.Windows.Forms.ToolStripButton();
             this.tsbCancelar = new System.Windows.Forms.ToolStripButton();
             this.tsbExcluir = new System.Windows.Forms.ToolStripButton();
-            this.tsbSalvar = new System.Windows.Forms.ToolStripButton();
             this.tsbBuscaPorId = new System.Windows.Forms.ToolStripLabel();
             this.tstId = new System.Windows.Forms.ToolStripTextBox();
             this.tsbBuscar = new System.Windows.Forms.ToolStripButton();
@@ -222,6 +222,17 @@
             this.tsbNovo.Size = new System.Drawing.Size(23, 22);
             this.tsbNovo.Text = "Salvar";
             this.tsbNovo.ToolTipText = "Novo";
+            this.tsbNovo.Click += new System.EventHandler(this.tsbNovo_Click);
+            // 
+            // tsbSalvar
+            // 
+            this.tsbSalvar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.tsbSalvar.Image = ((System.Drawing.Image)(resources.GetObject("tsbSalvar.Image")));
+            this.tsbSalvar.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbSalvar.Name = "tsbSalvar";
+            this.tsbSalvar.Size = new System.Drawing.Size(23, 22);
+            this.tsbSalvar.Text = "toolStripButton1";
+            this.tsbSalvar.ToolTipText = "Salvar";
             // 
             // tsbCancelar
             // 
@@ -240,16 +251,6 @@
             this.tsbExcluir.Name = "tsbExcluir";
             this.tsbExcluir.Size = new System.Drawing.Size(23, 22);
             this.tsbExcluir.Text = "Excluir";
-            // 
-            // tsbSalvar
-            // 
-            this.tsbSalvar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbSalvar.Image = ((System.Drawing.Image)(resources.GetObject("tsbSalvar.Image")));
-            this.tsbSalvar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbSalvar.Name = "tsbSalvar";
-            this.tsbSalvar.Size = new System.Drawing.Size(23, 22);
-            this.tsbSalvar.Text = "toolStripButton1";
-            this.tsbSalvar.ToolTipText = "Salvar";
             // 
             // tsbBuscaPorId
             // 
