@@ -209,6 +209,12 @@ namespace CRUD_com_CSharp
 
         private void tsbBuscaPorId_Click(object sender, EventArgs e)
         {
+          
+
+        }
+
+        private void tsbBuscar_Click(object sender, EventArgs e)
+        {
             string sql = "SELECT * FROM CLIENTE WHERE ID=" + tstId.Text;
 
             SqlConnection con = new SqlConnection(connectionString);

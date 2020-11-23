@@ -4,3 +4,7 @@ C:\Users\andre\OneDrive\Documentos\Projetos-Andre\OneDrive\CRUD EM CSHARP\Crud-e
 C:\Users\andre\OneDrive\Documentos\Projetos-Andre\OneDrive\CRUD EM CSHARP\Crud-em-Csharp\c#\CRUD com CSharp\CRUD com CSharp\obj\Debug\CRUD_com_CSharp.frmCadastroCliente.resources
 C:\Users\andre\OneDrive\Documentos\Projetos-Andre\OneDrive\CRUD EM CSHARP\Crud-em-Csharp\c#\CRUD com CSharp\CRUD com CSharp\obj\Debug\CRUD_com_CSharp.Properties.Resources.resources
 C:\Users\andre\OneDrive\Documentos\Projetos-Andre\OneDrive\CRUD EM CSHARP\Crud-em-Csharp\c#\CRUD com CSharp\CRUD com CSharp\obj\Debug\CRUD com CSharp.csproj.GenerateResource.Cache
+C:\Users\andre\OneDrive\Documentos\Projetos-Andre\OneDrive\CRUD EM CSHARP\Crud-em-Csharp\c#\CRUD com CSharp\CRUD com CSharp\bin\Debug\CRUD com CSharp.exe
+C:\Users\andre\OneDrive\Documentos\Projetos-Andre\OneDrive\CRUD EM CSHARP\Crud-em-Csharp\c#\CRUD com CSharp\CRUD com CSharp\bin\Debug\CRUD com CSharp.pdb
+C:\Users\andre\OneDrive\Documentos\Projetos-Andre\OneDrive\CRUD EM CSHARP\Crud-em-Csharp\c#\CRUD com CSharp\CRUD com CSharp\obj\Debug\CRUD com CSharp.exe
+C:\Users\andre\OneDrive\Documentos\Projetos-Andre\OneDrive\CRUD EM CSHARP\Crud-em-Csharp\c#\CRUD com CSharp\CRUD com CSharp\obj\Debug\CRUD com CSharp.pdb
